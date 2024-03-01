@@ -1,18 +1,18 @@
-# What is Python?
+# What is Python? (qwo-iaxs-mbg)
 
-Python is a general-purpose, dynammic, high-level and interpreted programming
-language. It supports Object Oriented Programming approach to develop
+Python is a general-purpose, dynamic, high-level and interpreted programming
+language. It supports Object-Oriented Programming approach to develop
 applications.
 
 It is simple and easy to learn and provides lots of high-level data structures.
 
 We don't need to use data types to declare variable because it is dynamically
-typed, so we can write a = 10 to assign an interger value in an interger
+typed, so we can write a = 10 to assign an integer value in an integer
 variable.
 
 Python is an open-source, cost-free programming language.
 
-In Python, code readability and maintability are important. As a result, even
+In Python, code readability and maintainability are important. As a result, even
 
 ## Python is
 
@@ -20,7 +20,7 @@ In Python, code readability and maintability are important. As a result, even
 - Expressive Language
 - Interpreted Language
 - Object-Oriented Language
-- Open Soruce Language
+- Open Source Language
 - Learn Standard Library
 - Integrated
 - Embeddable
@@ -55,7 +55,7 @@ In Python, code readability and maintability are important. As a result, even
   letters, numbers or underscores
 
   - can't start with number
-  - can only contain alpha-numeric char and underscores `(A-z, 0-9, _)`
+  - can only contain alphanumeric char and underscores `(A-z, 0-9, _)`
   - case-sensitive `(age, Age and AGE are three different vars)`
   - it can't be any of the python keyword
 
@@ -68,7 +68,7 @@ In Python, code readability and maintability are important. As a result, even
   5. List Literal
   6. Tuple Literal
   7. Set Literal
-  8. Dictionay Literal
+  8. Dictionary Literal
 
 - **Literals**: constant values in py. Eg `string, numbers and boolean`
 - **Operators**: different operators like
@@ -80,7 +80,7 @@ In Python, code readability and maintability are important. As a result, even
     - Modulus `%`
     - Exponent `**`
     - Floor Division `//`
-  - Comparsion Operators
+  - Comparison Operators
     - `==`
     - `!=`
     - `<=`
@@ -101,11 +101,11 @@ In Python, code readability and maintability are important. As a result, even
 
 ## Data Types
 
-- We did not specify the type of variable a, which has the value five from an
+- We did not specify the type of variable a which has the value five from an
   integer. The Python Interpreter will automatically interpret the variable as
   integer
 - We can verify the type of the program-used variable thanks to Python. The
-  type() function in Python returns the type of passed vairable.
+  type() function in Python returns the type of passed variable.
 
 ### Python Data Types
 
@@ -125,15 +125,15 @@ In Python, code readability and maintability are important. As a result, even
 
 - A variable is the name given to a memory location. A value-holding Python
   variable is also known as an identifier
-- Python is an infer language that is smart enough to determine the type of a
-  vairale, we don't need to specify its type in Python
+- Python is an infer language that is smart enough to determine the type of
+  variable, we don't need to specify its type in Python
 
 ### Type Casting
 
-- Type casting in Python referes to the process of converting one data type into
+- Type casting in Python refers to the process of converting one data type into
   another. Python provides built-in functions for type casting:
   - `int()` : Converts a number or string to an integer
-  - `float()` : Converts a number or string to an floating-point number
+  - `float()` : Converts a number or string to a floating-point number
   - `str()` : Converts an object into a string representation
   - `bool()` : Converts a value to a Boolean (True or False) representation
   - `list()` : Converts a sequence (like a tuple or string) into a list
