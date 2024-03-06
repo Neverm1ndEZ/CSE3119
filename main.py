@@ -23,7 +23,7 @@
 # print(type(a))
 # print(type(b))
 
-# 1. WAPP to print the given number if it is -ve then print it in +ve format 
+# 1. WAPP to print the given number if it is -ve then print it in +ve format
 # a = -10
 
 # if (a < 0):
@@ -92,11 +92,11 @@
 
 # square pattern
 
-# * * * * *
-# * * * * *
-# * * * * *
-# * * * * *
-# * * * * *
+#    * * * * *
+#    * * * * *
+#    * * * * *
+#    * * * * *
+#    * * * * *
 
 # n = int(input("enter number: "))
 #
@@ -106,19 +106,180 @@
 #         print("*", end=" ")
 
 # hollow square
+
+#    *  *  *  *  *
+#    *           *
+#    *           *
+#    *           *
+#    *  *  *  *  *
+
+# print("Hollow Square Star Pattern")
+# for i in range(n):
+#     for j in range(n):
+#         if i == 0 or i == n - 1 or j == 0 or j == n - 1:
+#             print("*", end='  ')
+#         else:
+#             print(' ', end='  ')
+#     print()
+
+# X pattern
+# *   *
+#   *
+# *   *
+
+# print("X pattern")
+# for i in range(n):
+#     for j in range(n):
+#         if i == j or j == n-1-i:
+#             print("*", end=" ")
+#         else:
+#             print(" ", end=" ")
+#     print()
+
+
+# *
+# *   *
+# *       *
+# *   *   *   *
+#
+# *   *   *   *
+# *       *
+# *   *
+# *
+
+#
+# print("Hollow triangle Star Pattern")
+# for i in range(n):
+#     for j in range(n):
+#         if i == j or i == n - 1 or j == 0:
+#             print("*", end='  ')
+#         else:
+#             print(' ', end='  ')
+#     print()
+#
+# print()
+#
+# for i in range(n):
+#     for j in range(n):
+#         if i == 0 or i + j == n - 1 or j == 0:
+#             print("*", end='  ')
+#         else:
+#             print(' ', end='  ')
+#     print()
+#
+#
+# for i in range(n):
+#     for j in range(n):
+#         if i + j == n - 1 or j == n - 1 or i == n - 1:
+#             print("*", end='  ')
+#         else:
+#             print(' ', end='  ')
+#     print()
+#
+# print()
+#
+# for i in range(n):
+#     for j in range(n):
+#         if i == j or i == 0 or j == n - 1:
+#             print("*", end='  ')
+#         else:
+#             print(' ', end='  ')
+#     print()
+
+# Solid star triangle
+# for i in range(n):
+#     for j in range(i + 1):
+#         print("*", end='  ')
+#     print()
+#
+# print()
+#
+# for i in range(n):
+#     for j in range(n):
+#         if i + j >= n - 1:
+#             print("*", end='  ')
+#         else:
+#             print(" ", end="  ")
+#     print()
+#
+# print()
+#
+# for i in range(n):
+#     for j in range(n):
+#         if i + j <= n - 1:
+#             print("*", end='  ')
+#         else:
+#             print(" ", end="  ")
+#     print()
+#
+# print()
+#
+# for i in range(n):
+#     for j in range(n):
+#         if i <= j:
+#             print("*", end='  ')
+#         else:
+#             print(" ", end="  ")
+#     print()
+#
+# print()
+
+# n = 5
+# for i in range(n):
+#     for j in range(n):
+#         if i + j >= n - 1:
+#             print("*", end='  ')
+#         else:
+#             print(" ", end="  ")
+#
+#     for k in range(n):
+#         if i >= k + 1:
+#             print("*", end='  ')
+#         else:
+#             print(" ", end="  ")
+#     print()
+
+
+# def is_leap(year):
+#     leap = False
+#     if (year % 4 == 0) and (year % 100 == 0):
+#         if year % 400 == 0:
+#             leap = True
+#         elif (year % 4 == 0) and (year % 100 != 0):
+#             leap = True
+#         else:
+#             leap = False
+#
+#
+# year = int(input())
+
+
+# def solveMeFirst(a, b):
+#     return a + b
+#
+#
+# num1 = int(input())
+# num2 = int(input())
+# res = solveMeFirst(num1, num2)
+# print(res)
+
+# WAPP to sum the elements in the list
+#
+# arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+#
+# summation = 0
+#
+# for i in arr:
+#    summation += i
+#
+# print(summation)
+
 n = 5
 
-# *  *  *  *  *
-# *           *
-# *           *
-# *           *
-# *  *  *  *  *
-
-print("Hollow Square Star Pattern")
 for i in range(n):
     for j in range(n):
-        if i == 0 or i == n - 1 or j == 0 or j == n - 1:
-            print("*", end='  ')
+        if i == j or j == n-1-i:
+            print(n-i, end=" ")
         else:
-            print(' ', end='  ')
+            print(" ", end=" ")
     print()
