@@ -193,7 +193,8 @@
 #     print()
 #
 # print()
-#
+# #
+# n = 6
 # for i in range(n):
 #     for j in range(n):
 #         if i + j >= n - 1:
@@ -201,7 +202,7 @@
 #         else:
 #             print(" ", end="  ")
 #     print()
-#
+
 # print()
 #
 # for i in range(n):
@@ -273,13 +274,141 @@
 #    summation += i
 #
 # print(summation)
+#
+# n = 5
+#
+# for i in range(n):
+#     for j in range(n):
+#         if i == j or j == n-1-i:
+#             print(n-i, end=" ")
+#         else:
+#             print(" ", end=" ")
+#     print()
+#
+# def round_up_to_multiple_of_5(n):
+#     remainder = n % 5
+#
+#     # If the remainder is 0, the number is already a multiple of 5, so return it.
+#     if remainder == 0:
+#         return n
+#
+#     # Otherwise, add 5 to the remainder and return the result.
+#     return n + (5 - remainder)
+#
+#
+# print(round_up_to_multiple_of_5(71))
 
-n = 5
+# WAPP to print even num in the list
 
-for i in range(n):
-    for j in range(n):
-        if i == j or j == n-1-i:
-            print(n-i, end=" ")
-        else:
-            print(" ", end=" ")
-    print()
+# list = [1, 2, 3, 4, 5, 6, 7, 8]
+#
+# for i in list:
+#     if i % 2 == 0:
+#         print(i, end=" ")
+
+# WAPP to print even index element in the list
+
+# list = [12, 21, 36, 8, 7, 9, 23]
+
+# 12, 36, 7, 23
+#
+# for i in range(len(list)):
+#     if i % 2 == 0:
+#         print(list[i], end=" ")
+
+# WAP to print the sum of the element in the list
+# list = [12, 21, 36, 8, 7, 9, 23]
+#
+# sum = 0
+# for i in list:
+#     sum += i
+#
+# print(sum)
+
+# WAPP to print the max num in the list
+
+# list = [12, 21, 36, 8, 7, 9, 23]
+#
+# max = 0
+#
+# for i in range(len(list)):
+#     if max < list[i]:
+#         max = list[i]
+#
+# print(max)
+
+# wapp to print the second maximum in the list
+#
+# list = [12, 21, 36, 8, 7, 9, 23]
+#
+# firstMax = 0
+# secondMax = 0
+#
+# for i in range(len(list)):
+#     if firstMax < list[i]:
+#         max = list[i]
+#         secondMax = max
+#     elif secondMax < list[i] and secondMax != max:
+#         secondMax = list[i]
+#
+# print(secondMax)
+
+# WAPP to sort the element in list
+# list = [12, 21, 36, 8, 7, 9, 23]
+#
+# length = len(list)
+#
+# for i in range(length):
+#     for j in range(i+1, length):
+#         if list[i] > list[j]:
+#             temp = list[i]
+#             list[i] = list[j]
+#             list[j] = temp
+#
+# print(list)
+
+# if([]):
+#     print("a")
+# else:
+#     print("b")
+
+# a=[1,2,3]
+# for i in a:
+#       print(i+1,end=" ")
+#
+# x=7
+# y = 3
+# print(x%y)
+
+# a=10
+# b=20
+# a,b = b,a
+# print("a =", a,"b =",b)
+
+# i = 1
+# while True:
+#     if i % 3 == 0:
+#         break
+#     print(i)
+#
+#     i += 1
+#
+# x=7
+# y = 3
+# print(x//y)
+#
+# x=[1,2,3]
+# print(x*2)
+
+# a = []
+# n = int(input())
+# for i in range(n):
+#     ele = int(input())
+#     a.append(ele)
+#
+# print(a)
+#
+# a = input()
+# l = [int(x) for x in a.split(' ')]
+# print(l)
+

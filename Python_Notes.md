@@ -159,3 +159,21 @@ In Python, code readability and maintainability are important. As a result, even
    - `break`
    - `continue`
    - `pass`
+
+## Python Lists:
+  - are just like dynamically sized arrays, declared in other languages (vector in C++ and ArrayList in Java). In simple language, a list is a collection of things enclosed in [] abd separated by commas.
+  - The list is a sequence data type which is used to store the collection of data.
+  - Tuples and Strings are other types of sequence data types.
+  - Lists are used to store multiple items in a single var
+  - List is a collection which is ordered and changeable. Allows duplicate members.
+
+## Characteristics of Lists
+  - The lists are in order
+  - The list element can be accessed via the index
+  - The mutable type of List
+  - The rundowns are changeable sorts
+  - The number of various elements can be stored in a list
+
+## List indexing and Splitting
+  - The indexing procedure is carried out similarly to string processing. The slice operator [] can be used to get to the List's Components.
+  - The index ranges from 0 to length -1. The 0th index is where the List's first element is stored; the 1st index is where the second element is stored and so on
