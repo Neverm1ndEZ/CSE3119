@@ -412,3 +412,111 @@
 # l = [int(x) for x in a.split(' ')]
 # print(l)
 
+# giveStr = "mihir"
+# for i in range(len(giveStr) - 1, -1, -1):
+#     print(giveStr[i], end=" ")
+
+# a = ["ram", "raju", "ramadhir", "ramu"]
+# b = a[1]
+# newIndexOne = b[::-1]
+#
+# a.pop(1)
+# a.insert(1, newIndexOne)
+# print(a)
+
+# a = ["ram", "raju", "ramadhir", "ramu"]
+# b = a[::-1]
+#
+# print(b)
+
+# a = ["ram", "raju", "ramadhir", "ramu"]
+# rev = []
+#
+# for i in range(len(a)):
+#     word = a[i][::-1]
+#     rev.append(word)
+#
+# print(rev)
+#
+# a = []
+# n = int(input("enter the matrix: "))
+# for i in range(n):
+#     a.append([])
+#     for j in range(n):
+#         element = int(input("Enter element: "))
+#         a[i].append(element)
+#
+# print(a, end="")
+
+# a = []
+# n = int(input(""))
+#
+# for i in range(n):
+#     ele = input("")
+#     v = [int(x) for x in ele.split(" ")]
+#     a.append(v)
+#
+# print(a)
+
+# TUPLE
+
+# a = [1]
+# b = (1)
+# print(type(a))
+# print(type(b))  # will return class int
+#
+# c = (1,)
+# print(type(c))  # class <tuple>
+#
+# d = [1, 2, 3, 4, 5]
+# d[1] = 6
+# print(d)  # [1,6,3,4,5]
+#
+# e = (1, 2, 3, 4, 5)
+# e[1] = 6
+# print(e)  # TypeError: "tuple" object doesn't support item assignment
+
+# Second max no in tuple
+#
+# f = (10, 7, 9, 85, 69, 45)
+#
+# firstMax = 0
+# secondMax = 0
+#
+# for i in range(len(f)):
+#     if firstMax < f[i]:
+#         secondMax = firstMax
+#         firstMax = f[i]
+#     elif secondMax < f[i] < firstMax:
+#         secondMax = f[i]
+#
+# print(secondMax)
+
+# Append at an index TUPLE
+
+# a = (1, 2, 3, 4, 6)
+# new_a = list(a)
+# new_a.insert(len(new_a) - 1, 5)
+# added_element = tuple(new_a)
+# print(added_element)
+
+# WAPP to remove duplicate element in a tuple
+
+# a = (1, 2, 3, 3, 3, 4, 5)
+# b = tuple(set(a))
+# print(b)
+
+a = (7, 2)
+b = (7, 8)
+
+output = []
+
+for x in a:
+    for y in b:
+        output.append((x, y))
+
+for y in b:
+    for x in a:
+        output.append((y, x))
+
+print(output)

@@ -177,3 +177,4 @@ In Python, code readability and maintainability are important. As a result, even
 ## List indexing and Splitting
   - The indexing procedure is carried out similarly to string processing. The slice operator [] can be used to get to the List's Components.
   - The index ranges from 0 to length -1. The 0th index is where the List's first element is stored; the 1st index is where the second element is stored and so on
+
