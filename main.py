@@ -506,17 +506,84 @@
 # b = tuple(set(a))
 # print(b)
 
-a = (7, 2)
-b = (7, 8)
 
-output = []
+# a = (7, 2)
+# b = (7, 8)
+#
+# output = []
+#
+# for x in a:
+#     for y in b:
+#         output.append((x, y))
+#
+# for y in b:
+#     for x in a:
+#         output.append((y, x))
+#
+# print(output)
+#
+# i = [1,2,6,7,8]
+# i.insert(9)
+# print(i)
 
-for x in a:
-    for y in b:
-        output.append((x, y))
+# x = [i**+1 for i in range(3)];
+# # print(x)
+#
+# list = [True, 50, 10]
+# list.insert(2,5)
+# print(list, "Sum is: ", sum(list))
+#
+# a = [14,52,7]
+# b = a.copy()
+# print(b)
+# print(b is a)
+#
+# a = list((45,) * 4)
+# print((45) * 4)
+# print(a)
+#
+# val = [
+#     [3, 4, 5, 1],
+#     [33, 6, 1, 2]
+# ]
+#
+# v = val[0][0]
+# print(v)
+# for i in val:
+#     for e in i:
+#         if v > e:
+#             v = e
+#             print(v)
 
-for y in b:
-    for x in a:
-        output.append((y, x))
+# SUM OF LIST IN ELEMENT USING FUNCTION
+#
+# def sumElements(list):
+#     sum = 0
+#     for i in list:
+#         sum += i
+#     return sum
+#
+#
+# list = [1, 2, 3, 4]
+# print(sumElements(list))
 
-print(output)
+
+# WAPP PRINT THE Max and min number using function in a list
+
+def minAndMaxNums(nums):
+    if not nums:  # Check if the list is empty
+        return "List is empty"
+
+    maximum = nums[0]
+    minimum = nums[0]
+    for num in nums:
+        if maximum < num:
+            maximum = num
+        if minimum > num:
+            minimum = num
+
+    return "Max No: " + str(maximum) + " and Min No: " + str(minimum)
+
+
+numbers = [10, 20, 30, 40, 50]
+print(minAndMaxNums(numbers))
