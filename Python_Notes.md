@@ -178,3 +178,22 @@ In Python, code readability and maintainability are important. As a result, even
   - The indexing procedure is carried out similarly to string processing. The slice operator [] can be used to get to the List's Components.
   - The index ranges from 0 to length -1. The 0th index is where the List's first element is stored; the 1st index is where the second element is stored and so on
 
+## Functions
+  - Function is a block of code which is used to store behaviour of an object. 
+    - No Argument Function:
+      - a method without formal argument declare is know as no - argument function
+      - whenever we don't want to pass value to method, we go for a no-argument.
+    - Parametrized method: 
+      - method formal argument are declared method declaration is known as parametrized method.
+      - whenever we want to pass a value to be method, we go for parametrized method
+    
+
+### Lamda Functions:
+ - a lamba functions is a small anonymous function
+ - a lamda function can take any number of arguments but can only have one expression
+ - This will study anonymous, commonly called lambda functions in Python. A lambda function can take n number of arguments at a time. But it returns only one argument at a time. We will understand what they are how to execute them and their syntax
+
+## Recursion:
+- a method calling is known as recursion
+- we can stop recursion with the help of base condition
+- else it will have an infinite loop

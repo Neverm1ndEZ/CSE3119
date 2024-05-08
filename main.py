@@ -570,20 +570,92 @@
 
 # WAPP PRINT THE Max and min number using function in a list
 
-def minAndMaxNums(nums):
-    if not nums:  # Check if the list is empty
-        return "List is empty"
+# def minAndMaxNums(nums):
+#     if not nums:  # Check if the list is empty
+#         return "List is empty"
+#
+#     maximum = nums[0]
+#     minimum = nums[0]
+#     for num in nums:
+#         if maximum < num:
+#             maximum = num
+#         if minimum > num:
+#             minimum = num
+#
+#     return "Max No: " + str(maximum) + " and Min No: " + str(minimum)
+#
+#
+# numbers = [10, 20, 30, 40, 50]
+# print(minAndMaxNums(numbers))
 
-    maximum = nums[0]
-    minimum = nums[0]
-    for num in nums:
-        if maximum < num:
-            maximum = num
-        if minimum > num:
-            minimum = num
+# FUNCTIONS
 
-    return "Max No: " + str(maximum) + " and Min No: " + str(minimum)
+# WAPP TO ADD 2 numbs using function
+#
+#
 
 
-numbers = [10, 20, 30, 40, 50]
-print(minAndMaxNums(numbers))
+# newList = [10, 20, 30]
+# print(max(newList))
+
+# print max num in a list using function
+#
+# def maxNumInTheList(nums):
+#     if not nums:  # Check if the list is empty
+#         return "List is empty"
+#
+#     maximum = nums[0]
+#     for num in nums:
+#         if maximum < num:
+#             maximum = num
+#
+#     return "Max No: " + str(maximum)
+#
+#
+# newList = [10, 20, 30]
+# print(maxNumInTheList(newList))
+
+# print second min num in a list using func
+
+# def secondMinNumInList(nums):
+#     if not nums:  # Check if the list is empty
+#         return "List is empty"
+#
+#     firstMin = float('inf')
+#     secondMin = float('inf')
+#     for num in nums:
+#         if firstMin > num:
+#             secondMin = firstMin
+#             firstMin = num
+#         elif num < secondMin and num != firstMin:
+#             secondMin = num
+#
+#     return "Sec min No: " + str(secondMin)
+#
+#
+# newList = [10, 20, 30, 40]
+# print(secondMinNumInList(newList))
+
+# LAMBA FUNCTION
+#
+# v = lambda a: a + 30
+# print(v(60))
+
+
+# def add(s):
+#     return lambda a: a * s
+#
+#
+# v = add(20)
+# print(v(10))
+
+# wapp to print num 1-5 using recursion
+
+def printNums(n):
+    if n == 0:
+        return
+    printNums(n - 1)
+    print(n)
+
+
+printNums(5)
